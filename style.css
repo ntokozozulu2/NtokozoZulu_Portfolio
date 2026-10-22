@@ -35,14 +35,14 @@
   --color-bg-alt:      #0e1220;
   --color-surface:     #111827;
   --color-surface-2:   #1a2236;
-  --color-border:      rgba(99, 102, 241, 0.15);
+  --color-border:      rgba(59, 130, 246, 0.15);
   --color-border-soft: rgba(255, 255, 255, 0.06);
 
   /* Accent */
-  --color-accent:       #6366f1;   /* electric indigo / blue-purple */
-  --color-accent-2:     #8b5cf6;   /* purple */
-  --color-accent-glow:  rgba(99, 102, 241, 0.35);
-  --color-accent-light: rgba(99, 102, 241, 0.12);
+  --color-accent:       #3b82f6;   /* blue */
+  --color-accent-2:     #60a5fa;   /* light blue */
+  --color-accent-glow:  rgba(59, 130, 246, 0.35);
+  --color-accent-light: rgba(59, 130, 246, 0.12);
 
   /* Text */
   --color-heading:  #f1f5f9;
@@ -51,18 +51,18 @@
   --color-white:    #ffffff;
 
   /* Status badges */
-  --color-learning:  rgba(99, 102, 241, 0.18);
-  --color-beginner:  rgba(139, 92, 246, 0.18);
+  --color-learning:  rgba(59, 130, 246, 0.18);
+  --color-beginner:  rgba(96, 165, 250, 0.18);
   --color-using:     rgba(34, 197, 94, 0.15);
 
-  --color-learning-text:  #a5b4fc;
-  --color-beginner-text:  #c4b5fd;
+  --color-learning-text:  #93c5fd;
+  --color-beginner-text:  #bfdbfe;
   --color-using-text:     #86efac;
 
   /* Gradients */
   --gradient-accent: linear-gradient(135deg, var(--color-accent), var(--color-accent-2));
   --gradient-hero:   linear-gradient(135deg, #0a0d14 0%, #0e1220 50%, #0f1627 100%);
-  --gradient-glow:   radial-gradient(ellipse at center, rgba(99,102,241,0.15) 0%, transparent 70%);
+  --gradient-glow:   radial-gradient(ellipse at center, rgba(59,130,246,0.15) 0%, transparent 70%);
 
   /* Typography */
   --font-primary: 'Inter', 'Poppins', system-ui, sans-serif;
@@ -132,7 +132,7 @@
   --color-bg-alt:      #f1f5f9;
   --color-surface:     #ffffff;
   --color-surface-2:   #e9eef6;
-  --color-border:      rgba(99, 102, 241, 0.2);
+  --color-border:      rgba(59, 130, 246, 0.2);
   --color-border-soft: rgba(0, 0, 0, 0.07);
 
   /* Text */
@@ -153,10 +153,10 @@
   --shadow-glow:   0 0 60px rgba(99,102,241,0.1);
 
   /* Skill level badge tints */
-  --color-learning:      rgba(99, 102, 241, 0.1);
-  --color-beginner:      rgba(139, 92, 246, 0.1);
+  --color-learning:      rgba(59, 130, 246, 0.1);
+  --color-beginner:      rgba(96, 165, 250, 0.1);
   --color-using:         rgba(34, 197, 94, 0.1);
-  --color-accent-light:  rgba(99, 102, 241, 0.08);
+  --color-accent-light:  rgba(59, 130, 246, 0.08);
 }
 
 /* Light-mode specific component tweaks */
@@ -166,12 +166,12 @@
 
 [data-theme="light"] .code-window {
   background: #1e293b; /* keep code window dark for readability */
-  border-color: rgba(99, 102, 241, 0.25);
+  border-color: rgba(59, 130, 246, 0.25);
 }
 
 [data-theme="light"] .float-badge {
   background: #ffffff;
-  border-color: rgba(99, 102, 241, 0.2);
+  border-color: rgba(59, 130, 246, 0.2);
   box-shadow: 0 4px 16px rgba(0,0,0,0.08);
 }
 
@@ -1164,12 +1164,12 @@ p:last-child { margin-bottom: 0; }
 .skill-level.learning {
   background: var(--color-learning);
   color: var(--color-learning-text);
-  border: 1px solid rgba(99,102,241,0.25);
+  border: 1px solid rgba(59,130,246,0.25);
 }
 .skill-level.beginner {
   background: var(--color-beginner);
   color: var(--color-beginner-text);
-  border: 1px solid rgba(139,92,246,0.25);
+  border: 1px solid rgba(96,165,250,0.25);
 }
 .skill-level.using {
   background: var(--color-using);
@@ -1546,7 +1546,7 @@ p:last-child { margin-bottom: 0; }
 .form-group input:focus,
 .form-group textarea:focus {
   border-color: var(--color-accent);
-  box-shadow: 0 0 0 3px rgba(99,102,241,0.15);
+  box-shadow: 0 0 0 3px rgba(59,130,246,0.15);
   outline: none;
 }
 
